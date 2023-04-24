@@ -31,6 +31,12 @@ article {
     
 }
 
+.wizardwandon {
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+
 h1 {
     text-align: center;
     margin: 0px;
