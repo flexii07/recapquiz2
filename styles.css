@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+@import "/components/button.css";
+
 nav {
     position: fixed;
     
@@ -17,11 +19,6 @@ article {
     border: solid 2px;
     position: relative;
     text-align: center;
-}
-
-.answer {
-    display: block; 
-    margin: auto;
 }
 
 .wizardwandoff {
@@ -74,18 +71,6 @@ footer {
     position: fixed;
     bottom: 0;
     background: burlywood;
-}
-
-.footer1 {
-    margin: 5px;
-}
-
-.footer2 {
-    margin: 5px;
-}
-
-.footer3{
-    margin: 5px;
 }
 
 
