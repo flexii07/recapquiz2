@@ -30,6 +30,9 @@ article {
     border: solid 2px;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
 }
 
 .wizardwandoff {
@@ -58,7 +61,7 @@ h1 {
 h2 {
     margin-top: 50px;
     margin-bottom: 25px;
-    display: inline-block;
+    flex: 1;
 }
 
 body {
@@ -87,5 +90,22 @@ footer {
     bottom: 0;
     background: burlywood;
 }
+
+.bookmark-icon {
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.bookmark-icon.active {
+    filter: none;
+}
+
+.active {
+    filter: grayscale(100%) opacity(50%);
+  }
+  
 
 
